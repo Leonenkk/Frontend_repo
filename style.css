@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.award {
+    position: relative;
+    background-color: #fcd8ca;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.award__p {
+    font-size: 15px;
+    color: #4B5563;
+}
+
+.cross_image {
+    position: absolute;
+    right: 95px;
+    cursor: pointer;
+}
+
+/* HEADER START */
+.header{
+    background-color: #00353B;
+}
+.wrapp{
+    max-width: 1280px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header_card {
+    display: flex;
+    align-items: center ;
+    gap: 24px;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header_menu img {
+    width: 19px;
+    height: 29px;
+}
+
+.sign_up_button {
+    background-color: white;
+    padding: 13px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+/* HEADER END */
+
+.main {
+    background-color: #00353B;
+}
+/* SECTION 1 START */
+.section {
+    padding-top: 48px;
+    padding-bottom: 80px;
+}
+.container {
+    max-width: 1280px;
+    height: 640px;
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:80px 
+}
+.info_content {
+    width:100%;
+    height : 200px;
+    
+}
+.content_h1 {
+    color: white;
+    font-size: 56px;
+    margin-bottom: 30px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+.content_text{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 23px;
+    font-weight: 400;
+}
+.content_button {
+    display: flex;
+    align-items: center;
+    gap:16px
+}
+.button_explore {
+    background-color: #22A45A;
+    color: white;
+    border-radius: 8px;
+    padding: 13px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none
+}
+.video_button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.video_button p {
+    color: white;
+    font-size: 16px;
+}
+.video_button img {
+    width: 24px;
+    height: 36px;
+}
+.video_content {
+    width:100%;
+    height : 200px;
+    background-color: red;
+}
+/* SECTION 1 END */
